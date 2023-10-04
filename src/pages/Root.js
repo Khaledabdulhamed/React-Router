@@ -1,13 +1,12 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import MainNavigation from '../components/Main-Navigation/MainNavigation'
-import classes from './Root.module.css'
 
 const Root = () => {
   return (
     <div>
         <MainNavigation />
-        <main className={classes.content}>
+        <main>
         <Outlet />
         </main>
         
